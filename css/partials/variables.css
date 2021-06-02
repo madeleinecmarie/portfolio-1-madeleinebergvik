@@ -1,0 +1,35 @@
+/* COlOURS */
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --purple: #d2c3d6;
+  --beige: #e7dbcf;
+  --cream: #f3eee8;
+  --yellow: #f3e6bd;
+
+  /* NOT IN USE ATM */
+  --card-color: rgba(98, 124, 110, 0.2);
+  --hover-shadow: 0px 1px 2px 2px rgba(130, 154, 142, 0.2);
+  --shadow: 0px 1px 2px 2px rgb(98, 124, 110, 0.2);
+  --card-bgd: rgb(130, 154, 142, 0.15);
+  --bgd: #f8f8f8;
+}
+
+/* FONTS */
+
+:root {
+  --bold: 700;
+  --bold-900: 900;
+  --line-height: 1.6rem;
+  --line-height_bodytext: 35px;
+}
+
+/* DESIGN ELM */
+
+:root {
+  --border-radius: 20px;
+  --transition: 0.3s;
+  --hover-up: translateY(-3px);
+  --height: 60px;
+}

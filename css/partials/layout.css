@@ -1,0 +1,33 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Poppins:wght@400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--cream);
+}
+
+.logo__div {
+  font-family: "Corben", cursive;
+  font-size: 1.9rem;
+}
+
+.new__line {
+  display: block;
+}
+
+.body__text-home {
+  font-size: 2.7rem;
+  font-weight: var(--bold-900);
+  line-height: 100px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}

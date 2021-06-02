@@ -1,0 +1,34 @@
+.section-1__div {
+  background-color: var(--beige);
+  height: 950px;
+  display: flex;
+}
+
+.body__text-home {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  width: 65%;
+  margin: auto;
+}
+
+.section-2__container {
+  margin-top: 6%;
+}
+
+.section-2__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 55%;
+  height: 350px;
+}
+
+.section-2__text1,
+.section-2__text2,
+.section-2__text3 {
+  font-size: 1.4rem;
+  margin-top: 6%;
+  line-height: var(--line-height_bodytext);
+}

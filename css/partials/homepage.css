@@ -22,7 +22,7 @@
   justify-content: space-between;
   margin: auto;
   width: 55%;
-  height: 350px;
+  height: auto;
 }
 
 .section-2__text1,
@@ -31,4 +31,38 @@
   font-size: 1.4rem;
   margin-top: 6%;
   line-height: var(--line-height_bodytext);
+}
+
+.height {
+  height: 60px;
+}
+
+.section-3__img {
+  display: flex;
+}
+
+.illustration__img {
+  margin: auto;
+  height: 640px;
+}
+
+.icons__div1,
+.icons__div2 {
+  display: flex;
+  justify-content: space-between;
+  width: 52%;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+.icons__div2 {
+  margin-top: 4%;
+}
+
+.h3__home {
+  font-size: 2rem;
+  height: 150px;
+  text-align: center;
+  width: 60%;
+  margin-top: 6%;
 }

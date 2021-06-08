@@ -1,0 +1,112 @@
+.body__contact {
+  background-color: var(--yellow);
+}
+
+.h1__contact {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  font-size: 5rem;
+  font-weight: var(--bold-900);
+}
+
+.height__contact {
+  height: 80px;
+}
+
+.email__div {
+  border: 1px solid #00000025;
+  background-color: var(--cream);
+  width: 30rem;
+  border-radius: var(--radius);
+  height: 30px;
+  padding: 25px;
+  margin: auto;
+  display: flex;
+  box-shadow: var(--shadow);
+}
+
+.p__contact {
+  font-weight: var(--bold);
+  font-size: 1.5rem;
+  align-self: center;
+  margin: auto;
+}
+
+.email__div:hover {
+  transform: translateY(1.5px);
+  cursor: pointer;
+}
+
+.email__div:active {
+  /* background-color: var(--purple); */
+  box-shadow: 0 3px rgb(0, 0, 0, 0.1);
+  transform: translateY(4px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 680px;
+  text-align: center;
+}
+
+#name,
+#email,
+#subject,
+#message {
+  border: 1px solid rgba(119, 119, 119, 0.4);
+  border-radius: 25px;
+  font-size: 1rem;
+  box-shadow: var(--shadow);
+  width: 450px;
+  height: 50px;
+  padding: 10px;
+  margin: auto;
+  padding-left: 16px;
+  font-weight: var(--bold);
+}
+
+#message {
+  height: 190px;
+  resize: none;
+  padding-top: 20px;
+}
+
+#submit {
+  background-color: var(--black);
+  color: var(--white);
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 2%;
+}
+
+.p__contact-arrow {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: var(--bold);
+  height: 60px;
+}
+
+.height__contact2 {
+  height: 200px;
+}
+
+.error {
+  color: red;
+  display: none;
+  margin: 15px;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.show {
+  display: block;
+}

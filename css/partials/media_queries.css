@@ -1,0 +1,127 @@
+/* @media (min-width: 1500px) {
+  body {
+    width: 1500px;
+    margin: auto;
+  }
+} */
+
+/* DESKTOP */
+@media (max-width: 1200px) {
+}
+
+/* TABLET/LAPTOP */
+@media (max-width: 1024px) {
+  /* HEADER AND HERO */
+  .logo {
+    left: 15px;
+  }
+
+  .illustration__img {
+    height: 600px;
+  }
+
+  .icons__div1,
+  .icons__div2 {
+    width: 60%;
+  }
+
+  .purple__circle {
+    right: 105px;
+  }
+
+  /* HOMEPAGE */
+
+  .body__text-home {
+    font-size: 2.4rem;
+    width: 55%;
+  }
+
+  /* CONTACT */
+
+  .h1__contact {
+    width: 60%;
+  }
+}
+
+/* TABLET */
+@media (max-width: 991px) {
+  /* HEADER AND HERO */
+
+  .logo {
+    position: relative;
+  }
+
+  .h1-name__text {
+    left: 200px;
+    font-size: 4.8rem;
+  }
+
+  .name__text-presentation {
+    left: 200px;
+  }
+
+  /* HOME */
+
+  .illustration__img {
+    height: 450px;
+  }
+}
+
+/* MOBILE */
+/* @media (max-width: 767px) {
+}
+
+.logo {
+  position: relative;
+}
+
+.h1-name__text {
+  left: 30px;
+  font-size: 3.6rem;
+}
+
+.name__text-presentation {
+  left: 30px;
+  top: 530px;
+}
+
+.purple__circle {
+  right: 0;
+}
+
+.illustration__img {
+  height: 280px;
+}
+
+.section-1__div {
+  height: auto;
+}
+
+.body__text-home {
+  font-size: 1.8rem;
+  width: 80%;
+} */
+
+@media (max-width: 320px) {
+  .menu_wrapper {
+    position: relative;
+    left: 200px;
+  }
+
+  .h1-name__text {
+    font-size: 3rem;
+  }
+
+  .illustration__img {
+    height: 200px;
+  }
+
+  .icons__div1,
+  .icons__div2 {
+    display: none;
+  }
+
+  .purple__circle {
+    right: 20px;
+  }
+}

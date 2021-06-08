@@ -1,4 +1,9 @@
 @import "./partials/variables.css";
 @import "./partials/layout.css";
 @import "./partials/header.css";
+@import "./partials/footer.css";
 @import "./partials/homepage.css";
+@import "./partials/projects.css";
+@import "./partials/contact.css";
+
+@import "./partials/media_queries.css";

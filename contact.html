@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <title>Contact</title>
+  </head>
+  <body class="body__contact">
+    <header>
+      <div class="header__img" id="hide">
+        <img
+          src="/img/purple__circle.png"
+          alt="Purple Circle"
+          class="purple__circle"
+        />
+      </div>
+      <div class="header__text-container" id="hide">
+        <div class="header__text">
+          <h1 class="h1-name__text">
+            Madeleine <span class="new__line"></span>Bergvik
+          </h1>
+          <p class="name__text-presentation">Front-End Developer</p>
+        </div>
+      </div>
+      <div class="open">
+        <img
+          src="/img/menu.png"
+          alt="Hamburger menu opening"
+          class="burger__open"
+        />
+      </div>
+      <ul class="ul__elements">
+        <li><a class="link" id="active" href="index.html">Home</a></li>
+        <li><a class="link" href="/projects.html">Projects</a></li>
+        <li><a class="link" href="/contact.html">Contact</a></li>
+        <li><a class="link" href="/blog.html">Blog</a></li>
+        <li class="close">
+          <img
+            src="/img/cancel.png"
+            alt="Hamburger menu closing"
+            class="burger__closing"
+          />
+        </li>
+      </ul>
+      <div class="logo__div">
+        <a href="index.html">
+          <p class="logo">Bstudio.</p>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="height__contact"></div>
+      <h1 class="h1__contact">
+        Send me a simple hello, if you’d like to collaborate
+      </h1>
+      <div class="height__contact"></div>
+      <div class="email__div">
+        <p class="p__contact">madeleinebergvik@gmail.com</p>
+      </div>
+      <div class="height__contact2"></div>
+      <div class="contact__text">
+        <p class="p__contact-arrow">Or send me a message down below</p>
+      </div>
+      <form>
+        <input type="text" name="name" id="name" placeholder="Name" />
+        <p class="error nameError">Please enter your full name</p>
+
+        <input type="text" name="email" id="email" placeholder="Email" />
+        <p class="error emailError">Please enter a valid email address</p>
+
+        <input type="text" name="textbox" id="subject" placeholder="Subject" />
+        <p class="error subjectError">Please enter a subject</p>
+        <textarea
+          placeholder="Please write your message here"
+          id="message"
+          name="commentfield"
+          cols="30"
+          rows="14"
+        ></textarea>
+        <p class="error messageError">Please enter a message</p>
+        <div class="btn__div">
+          <button id="submit">Send</button>
+        </div>
+      </form>
+      <div class="height__contact"></div>
+    </main>
+    <script src="/js/hambuger.js"></script>
+  </body>
+</html>

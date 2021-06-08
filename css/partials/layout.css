@@ -8,7 +8,12 @@
   letter-spacing: 1px;
 }
 
-body {
+body,
+#name,
+#email,
+#subject,
+#message,
+#submit {
   font-family: "Poppins", sans-serif;
   background-color: var(--cream);
 }
@@ -30,4 +35,8 @@ body {
 
 h2 {
   font-size: 2.5rem;
+}
+
+#hide {
+  display: none;
 }

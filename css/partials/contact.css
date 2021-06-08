@@ -11,44 +11,44 @@
 }
 
 .height__contact {
-  height: 80px;
+  height: 90px;
 }
 
-.email__div {
+.email__btn {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #00000025;
   background-color: var(--cream);
   width: 30rem;
-  border-radius: var(--radius);
-  height: 30px;
-  padding: 25px;
-  margin: auto;
-  display: flex;
+  height: 70px;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 8px var(--cream);
   box-shadow: var(--shadow);
-}
-
-.p__contact {
   font-weight: var(--bold);
-  font-size: 1.5rem;
-  align-self: center;
-  margin: auto;
+  font-size: 1.3rem;
 }
 
-.email__div:hover {
+.email__btn:hover,
+#submit:hover {
   transform: translateY(1.5px);
   cursor: pointer;
 }
 
-.email__div:active {
-  /* background-color: var(--purple); */
-  box-shadow: 0 3px rgb(0, 0, 0, 0.1);
+.email__btn:active,
+#submit:active {
+  background-color: var(--purple);
   transform: translateY(4px);
+  color: var(--black);
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 680px;
+  height: 560px;
   text-align: center;
 }
 
@@ -56,7 +56,7 @@ form {
 #email,
 #subject,
 #message {
-  border: 1px solid rgba(119, 119, 119, 0.4);
+  border: var(--border);
   border-radius: 25px;
   font-size: 1rem;
   box-shadow: var(--shadow);
@@ -65,7 +65,6 @@ form {
   padding: 10px;
   margin: auto;
   padding-left: 16px;
-  font-weight: var(--bold);
 }
 
 #message {
@@ -82,17 +81,18 @@ form {
   border-radius: 10px;
   font-size: 1rem;
   font-weight: bold;
-  border: none;
+  border: var(--border);
   cursor: pointer;
-  transition: var(--transition);
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
-.p__contact-arrow {
+.p__contact-form {
   text-align: center;
   font-size: 1.4rem;
   font-weight: var(--bold);
   height: 60px;
+  width: 35%;
+  margin: auto;
 }
 
 .height__contact2 {
@@ -103,8 +103,8 @@ form {
   color: red;
   display: none;
   margin: 15px;
-  font-size: 0.9rem;
-  margin-top: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .show {

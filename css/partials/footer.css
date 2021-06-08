@@ -10,20 +10,24 @@
   flex-direction: column;
 }
 
+.footer__contact {
+  background-color: var(--cream);
+}
+
 .footer__container {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   height: 220px;
+  margin: auto;
 }
 
 .links1,
 .links2 {
-  font-weight: var(--bold);
   font-size: 1.1rem;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 4%;
+  margin-top: 6%;
 }
 
 .links1 li,
@@ -37,8 +41,14 @@
   text-decoration: none;
 }
 
+.links1 a:hover,
+.links2 a:hover {
+  border-bottom: 4px solid var(--purple);
+}
+
 .p__copyright {
   text-align: right;
   font-size: 0.95rem;
   width: 98%;
+  height: 40px;
 }

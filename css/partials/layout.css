@@ -13,7 +13,8 @@ body,
 #email,
 #subject,
 #message,
-#submit {
+#submit,
+.email__btn {
   font-family: "Poppins", sans-serif;
   background-color: var(--cream);
 }

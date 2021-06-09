@@ -8,7 +8,7 @@ closing.addEventListener('click', close);
 function show() {
   navMenu.style.display = 'flex';
   navMenu.style.top = '-2%';
-  navMenu.style.height = '180px';
+  navMenu.style.height = '200px';
 }
 
 function close() {

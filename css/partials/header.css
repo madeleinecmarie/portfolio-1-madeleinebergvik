@@ -4,8 +4,8 @@
 
 .logo {
   position: fixed;
-  top: 20px;
-  left: 40px;
+  top: 15px;
+  left: 35px;
   text-decoration: none;
   color: var(--black);
 }
@@ -57,7 +57,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--cream);
-  height: 105vh;
+  /* height: 105vh; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -69,11 +69,11 @@
 }
 
 .burger__open {
-  height: 60px;
+  height: 55px;
 }
 
 .burger__closing {
-  height: 34px;
+  height: 30px;
 }
 
 .open {

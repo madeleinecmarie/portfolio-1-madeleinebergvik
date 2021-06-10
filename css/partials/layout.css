@@ -34,8 +34,18 @@ body,
   line-height: 100px;
 }
 
+.h1__contact,
+.h1__post__cards {
+  font-size: 5rem;
+}
+
 h2 {
   font-size: 2.5rem;
+}
+
+.details__div p,
+.post__cards__text p {
+  font-size: 1.2rem;
 }
 
 #hide,

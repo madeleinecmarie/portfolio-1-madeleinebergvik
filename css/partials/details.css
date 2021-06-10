@@ -1,0 +1,29 @@
+.body__details {
+  background-color: var(--beige);
+}
+
+.height__details {
+  height: 100px;
+}
+
+.post__container {
+  width: 50%;
+}
+
+.h1__details {
+  font-weight: var(--bold-900);
+  font-size: 3.5rem;
+  text-align: center;
+  height: 140px;
+}
+
+.details__div p {
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.post__img {
+  height: 500px;
+  background-repeat: no-repeat;
+}

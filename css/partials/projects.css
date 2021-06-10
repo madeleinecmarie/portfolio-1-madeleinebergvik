@@ -1,3 +1,58 @@
 .body__projects {
   background-color: var(--beige);
 }
+
+.heights {
+  height: 240px;
+}
+
+.heights2 {
+  height: 290px;
+}
+
+.h1__post__cards {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  line-height: 130px;
+  font-weight: var(--bold-900);
+}
+
+.post__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  height: 1200px;
+}
+
+.h2__post__cards {
+  font-size: 3rem;
+}
+
+.post__cards {
+  width: 80%;
+  margin: auto;
+}
+
+.post__cards__text p {
+  margin-top: 2%;
+}
+
+.id__link {
+  margin-top: 2%;
+}
+
+.id__link a {
+  color: var(--black);
+  font-weight: var(--bold);
+}
+
+.hide {
+  display: none;
+}
+
+.loader__div {
+  margin: auto;
+  width: 40%;
+}

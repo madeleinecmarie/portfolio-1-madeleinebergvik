@@ -97,6 +97,11 @@
 
 /* MOBILE */
 @media (max-width: 767px) {
+  /* HEADER */
+  .logo {
+    left: 20px;
+  }
+
   /* HOME */
   .h1-name__text {
     font-size: 3.4rem;
@@ -137,12 +142,13 @@
     width: 100%;
   }
 
-  .email__div {
-    width: 18rem;
-  }
-
   .p__contact {
     font-size: 1rem;
+  }
+
+  .email__btn {
+    width: 22rem;
+    font-size: 1.1rem;
   }
 
   .height__contact {
@@ -222,8 +228,9 @@
     font-size: 2.2rem;
   }
 
-  .email__div {
-    width: 16rem;
+  .email__btn {
+    width: 19.5rem;
+    font-size: 1rem;
   }
 
   .p__contact {
@@ -260,5 +267,19 @@
 
   .name__text-presentation {
     top: 470px;
+  }
+
+  /* CONTACT */
+
+  .email__btn {
+    width: 17rem;
+    font-size: 0.85rem;
+  }
+
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 14rem;
   }
 }

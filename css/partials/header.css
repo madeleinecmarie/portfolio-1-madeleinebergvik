@@ -28,6 +28,10 @@
   height: 720px;
 }
 
+nav {
+  box-shadow: var(--shadow);
+}
+
 .header__text-container {
   position: relative;
 }
@@ -95,10 +99,7 @@
   font-size: 1.3rem;
 }
 
-.ul__elements li a:hover {
-  border-bottom: 6px solid var(--purple);
-}
-
+.ul__elements li a:hover,
 #active {
-  border-bottom: 6px solid var(--purple);
+  border-bottom: 5px solid var(--black);
 }

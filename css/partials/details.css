@@ -1,12 +1,13 @@
 .body__details {
-  background-color: var(--beige);
+  background-color: var(--cream);
 }
 
-.height__details {
-  height: 100px;
+.heights__div {
+  height: 80px;
 }
 
-.post__container {
+.post__container-2 {
+  margin: auto;
   width: 50%;
 }
 
@@ -14,16 +15,19 @@
   font-weight: var(--bold-900);
   font-size: 3.5rem;
   text-align: center;
-  height: 140px;
+  height: 120px;
 }
 
 .details__div p {
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin-top: 2%;
 }
 
-.post__img {
-  height: 500px;
+/* .post__img {
+  height: 300px;
   background-repeat: no-repeat;
-}
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */

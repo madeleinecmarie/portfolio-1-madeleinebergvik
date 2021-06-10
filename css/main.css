@@ -2,6 +2,7 @@
 @import "./partials/layout.css";
 @import "./partials/header.css";
 @import "./partials/footer.css";
+@import "./partials/alert.css";
 @import "./partials/homepage.css";
 @import "./partials/projects.css";
 @import "./partials/details.css";

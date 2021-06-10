@@ -1,0 +1,33 @@
+.alert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 2%;
+}
+
+.danger {
+  color: red;
+  border: solid 2px red;
+  padding: 20px;
+}
+
+.success {
+  color: darkgreen;
+  border: solid 2px darkgreen;
+  padding: 20px;
+}
+
+.warning {
+  color: orange;
+  border: solid 2px orange;
+  padding: 20px;
+}
+
+.information {
+  color: blue;
+  border: solid 2px blue;
+  padding: 20px;
+}

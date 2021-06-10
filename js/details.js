@@ -12,23 +12,22 @@ async function getPostId(postId) {
         const results = await response.json();
       
         document.title = results.title.rendered;
-        document.querySelector('.post__container').innerHTML += `
+        document.querySelector('.post__container-2').innerHTML += `
         <div class="details__div">
         <h1 class="h1__details">${results.title.rendered}</h1>
         <p>${results.content.rendered}</p>
-        <div class="post__img images${results.id}"></div>
         </div>
         `;
 
-
-        document.querySelector(`.images${results.id}`).style.backgroundImage = `url(${results.better_featured_image.media_details.sizes.medium_large.source_url})`;
+        // <div class="post__img images${results.id}"></div>
+        // document.querySelector(`.images${results.id}`).style.backgroundImage = `url(${results.better_featured_image.media_details.sizes.medium_featured.source_url})`;
         
 	} catch (err) {
         console.log(err);
-    //     document.querySelector('.alert').innerHTML += showAlert(
-    //       'An error has occured',
-    //       'danger'
-    //   );
+        document.querySelector('.alert').innerHTML += showAlert(
+           'An error has occured',
+           'danger'
+    );
   
       } finally {
             document.querySelector('.loader').classList.add('hide');

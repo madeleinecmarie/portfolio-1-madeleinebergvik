@@ -31,10 +31,10 @@ const getPosts = async (url) => {
 
 	} catch (err) {
       console.log(err);
-    //   document.querySelector('.alert').innerHTML += showAlert(
-    //     'An error has occured',
-    //     'danger'
-    // );
+       document.querySelector('.alert').innerHTML += showAlert(
+        'An error has occured',
+        'danger'
+    );
 
     } finally {
         document.querySelector('.loader').classList.add('hide');

@@ -101,5 +101,5 @@ nav {
 
 .ul__elements li a:hover,
 #active {
-  border-bottom: 5px solid var(--black);
+  border-bottom: 5px solid var(--purple);
 }

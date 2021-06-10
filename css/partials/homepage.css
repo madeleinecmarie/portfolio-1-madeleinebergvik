@@ -27,7 +27,8 @@
 
 .section-2__text1,
 .section-2__text2,
-.section-2__text3 {
+.section-2__text3,
+.section-2__text4 {
   font-size: 1.4rem;
   margin-top: 6%;
   line-height: var(--line-height_bodytext);

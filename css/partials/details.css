@@ -8,7 +8,7 @@
 
 .post__container-2 {
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 .h1__details {
@@ -24,10 +24,12 @@
   margin-top: 2%;
 }
 
-/* .post__img {
-  height: 300px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} */
+.loader_2 {
+  margin: auto;
+  width: 40%;
+}
+
+.wp-image {
+  height: 500px;
+  width: auto;
+}

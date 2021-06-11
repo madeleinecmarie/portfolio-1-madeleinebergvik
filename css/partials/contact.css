@@ -1,5 +1,6 @@
 .body__contact {
   background-color: var(--yellow);
+  width: auto;
 }
 
 .h1__contact {

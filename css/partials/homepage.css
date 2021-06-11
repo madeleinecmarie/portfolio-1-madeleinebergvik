@@ -25,10 +25,7 @@
   height: auto;
 }
 
-.section-2__text1,
-.section-2__text2,
-.section-2__text3,
-.section-2__text4 {
+.section-2__text {
   font-size: 1.4rem;
   margin-top: 6%;
   line-height: var(--line-height_bodytext);
@@ -51,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 43%;
+  width: 43%;
   margin: auto;
   height: 500px;
   margin-bottom: 2%;
@@ -71,7 +68,3 @@
   text-align: center;
   font-weight: var(--bold);
 }
-
-/* .badge {
-  height: 130px;
-} */

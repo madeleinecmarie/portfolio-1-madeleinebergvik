@@ -25,8 +25,7 @@ const getPosts = async (url) => {
         </div>
         `;
 
-        // <div class="post__img images${value.id}"></div>
-        // document.querySelector(`.images${value.id}`).style.backgroundImage = `url(${value.better_featured_image.media_details.sizes.medium.source_url})`;
+
    });
 
 	} catch (err) {

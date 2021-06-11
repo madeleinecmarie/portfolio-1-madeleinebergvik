@@ -8,6 +8,7 @@ footer {
   align-items: right;
   justify-content: center;
   flex-direction: column;
+  /* position: sticky; */
 }
 
 .footer__container {

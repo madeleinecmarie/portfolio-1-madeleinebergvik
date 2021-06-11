@@ -38,10 +38,10 @@ nav {
 
 .h1-name__text {
   position: absolute;
-  top: 350px;
+  top: 330px;
   left: 300px;
   font-weight: var(--bold-900);
-  font-size: 5.5rem;
+  font-size: 5.8rem;
 }
 
 .name__text-presentation {
@@ -61,7 +61,6 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--cream);
-  /* height: 105vh; */
   position: fixed;
   top: 0;
   width: 100%;

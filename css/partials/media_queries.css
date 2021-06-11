@@ -61,6 +61,13 @@
   .post__container {
     width: 70%;
   }
+
+  /* DETAILS */
+
+  .wp-image {
+    height: 240px;
+    width: auto;
+  }
 }
 
 /* TABLET */
@@ -191,6 +198,14 @@
   }
 }
 
+@media (max-width: 540px) {
+  /* PROJECTS */
+
+  .post__container {
+    height: 1900px;
+  }
+}
+
 @media (max-width: 425px) {
   /* HEADER */
 
@@ -217,7 +232,7 @@
   /* PROJECTS */
 
   .post__container {
-    height: 1400px;
+    height: 1700px;
   }
 
   .h2__post__cards {
@@ -235,7 +250,7 @@
   /* PROJECTS */
 
   .post__container {
-    height: 1500px;
+    height: 1900px;
   }
 }
 
@@ -292,7 +307,7 @@
   /* PROJECTS */
 
   .post__container {
-    height: 1700px;
+    height: 2100px;
   }
 }
 
@@ -332,6 +347,6 @@
   /* PROJECTS */
 
   .post__container {
-    height: 1850px;
+    height: 2300px;
   }
 }

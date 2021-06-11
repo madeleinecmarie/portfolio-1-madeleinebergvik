@@ -1,5 +1,5 @@
 document.querySelector('.loader').innerHTML = `
-<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_cH6EFa.json"  background="#E7DBCF"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
+<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_cH6EFa.json"  background="#F3EEE8"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
 `;
 
 const queryString = document.location.search;

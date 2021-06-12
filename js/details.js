@@ -14,13 +14,17 @@ async function getPostId(postId) {
         document.title = results.title.rendered;
         document.querySelector('.post__container-2').innerHTML += `
         <div class="details__div">
+
         <h1 class="h1__details">${results.title.rendered}</h1>
         <p>${results.content.rendered}</p>
+
         </div>
         `;
 
-        // <div class="post__img images${results.id}"></div>
-        // document.querySelector(`.images${results.id}`).style.backgroundImage = `url(${results.better_featured_image.media_details.sizes.medium_featured.source_url})`;
+          // META TAG
+          document.querySelector('meta[name="description"]').setAttribute(
+            'content',
+            `This is one of my projects from my portfolio: ${results.title.rendered}`);
         
 	} catch (err) {
         console.log(err);

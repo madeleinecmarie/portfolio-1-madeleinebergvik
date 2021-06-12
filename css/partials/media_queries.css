@@ -1,4 +1,4 @@
-@media (min-width: 1500px) {
+@media (min-width: 1650px) {
   .details__div {
     text-align: center;
   }
@@ -6,13 +6,14 @@
 
 @media (min-width: 1800px) {
   .h3__div {
-    height: 350px;
+    height: 240px;
     width: 60%;
+    margin-top: 2%;
   }
 
   .h3__home {
     text-align: center;
-    width: 100%;
+    width: 48%;
     font-size: 2.4rem;
     margin-top: 6%;
   }
@@ -75,6 +76,15 @@
     width: 55%;
   }
 
+  .h3__home {
+    width: 26%;
+    height: 100px;
+  }
+
+  .h3__div {
+    width: 90%;
+  }
+
   /* CONTACT */
 
   .h1__contact {
@@ -101,7 +111,7 @@
   }
 
   .loader__div {
-    width: 50%;
+    width: 60%;
   }
 
   /* DETAILS */
@@ -117,6 +127,10 @@
 
   .post__container-2 {
     width: 50%;
+  }
+
+  .loader_2 {
+    width: 60%;
   }
 }
 
@@ -141,6 +155,19 @@
   .loader__div {
     width: 70%;
   }
+
+  /* HOME */
+
+  .h3__home {
+    width: 60%;
+    height: 100px;
+    margin-top: 10%;
+  }
+
+  .h3__div {
+    width: 60%;
+    height: 420px;
+  }
 }
 
 /* TABLET */
@@ -159,6 +186,7 @@
 
   .name__text-presentation {
     left: 200px;
+    top: 565px;
   }
 
   .footer__container {
@@ -190,6 +218,12 @@
   .h1__post__cards {
     width: 90%;
   }
+
+  /* DETAILS */
+  .loader_2,
+  .loader__div {
+    width: 80%;
+  }
 }
 
 /* MOBILE */
@@ -214,7 +248,7 @@
   }
 
   .name__text-presentation {
-    top: 530px;
+    top: 500px;
     font-size: 1.3rem;
   }
 
@@ -253,6 +287,15 @@
 
   .section-2__text {
     font-size: 1.2rem;
+  }
+
+  .h3__home {
+    font-size: 1.6rem;
+    width: 58%;
+  }
+
+  .h3__div {
+    width: 60%;
   }
 
   /* CONTACT */
@@ -323,6 +366,16 @@
     height: 130px;
   }
 
+  /* HOME */
+
+  .h3__home {
+    width: 42%;
+  }
+
+  .h3__div {
+    width: 85%;
+  }
+
   /* HEADER */
 
   .close {
@@ -382,6 +435,16 @@
 
   .section-1__div {
     height: 760px;
+  }
+
+  .h3__home {
+    width: 70%;
+    margin-top: 20%;
+  }
+
+  .h3__div {
+    width: 60%;
+    height: 750px;
   }
 
   /* FOOTER */
@@ -533,8 +596,8 @@
   }
 
   .name__text-presentation {
-    width: 50%;
-    top: 500px;
+    width: 80%;
+    top: 481px;
   }
 
   .illustration__img {
@@ -543,6 +606,10 @@
 
   .section-2__div {
     margin-top: 10%;
+  }
+
+  .h3__div {
+    width: 75%;
   }
 
   /* CONTACT */
@@ -609,7 +676,9 @@
   .logo {
     font-size: 1.6rem;
   }
+
   /* HOME */
+
   .illustration__img {
     height: 180px;
   }
@@ -620,6 +689,20 @@
 
   .name__text-presentation {
     top: 470px;
+  }
+
+  .h3__home {
+    width: 100%;
+    margin-top: 30%;
+  }
+
+  .h3__div {
+    width: 30%;
+    height: 1250px;
+  }
+
+  .badge {
+    height: 80px;
   }
 
   /* CONTACT */

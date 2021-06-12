@@ -19,9 +19,13 @@
 }
 
 .details__div p {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2%;
+}
+
+.details__div a {
+  color: var(--black);
 }
 
 .loader_2 {

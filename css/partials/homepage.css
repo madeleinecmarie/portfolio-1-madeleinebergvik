@@ -48,9 +48,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 43%;
+  width: 70%;
   margin: auto;
-  height: 500px;
+  height: 200px;
   margin-bottom: 2%;
 }
 
@@ -58,7 +58,7 @@
   font-size: 1.9rem;
   height: 120px;
   text-align: center;
-  width: 64%;
+  width: 40%;
   margin-top: 6%;
 }
 
@@ -67,4 +67,9 @@
   margin-top: 14%;
   text-align: center;
   font-weight: var(--bold);
+}
+
+.badge {
+  width: auto;
+  height: 90px;
 }

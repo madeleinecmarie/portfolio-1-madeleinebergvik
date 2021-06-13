@@ -5,6 +5,11 @@
 }
 
 @media (min-width: 1800px) {
+  .close {
+    top: 45px;
+    right: -100px;
+  }
+
   .h3__div {
     height: 240px;
     width: 60%;
@@ -46,6 +51,32 @@
   .loader_2 {
     width: 20%;
   }
+
+  .details__div p {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1970px) {
+  .h1-name__text,
+  .name__text-presentation {
+    left: 200px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .close {
+    top: 45px;
+    right: -150px;
+  }
+
+  .ul__elements li {
+    width: 15%;
+  }
+
+  .p__contact-form {
+    width: 20%;
+  }
 }
 
 /* TABLET/LAPTOP */
@@ -67,13 +98,14 @@
 
   .close {
     top: 35px;
+    right: -60px;
   }
 
   /* HOMEPAGE */
 
   .body__text-home {
     font-size: 2.4rem;
-    width: 55%;
+    width: 80%;
   }
 
   .h3__home {
@@ -88,8 +120,8 @@
   /* CONTACT */
 
   .h1__contact {
-    width: 60%;
-    font-size: 4.7rem;
+    width: 70%;
+    font-size: 4.6rem;
   }
 
   .height__contact2 {
@@ -148,6 +180,11 @@
 
   .post__container-2 {
     width: 60%;
+  }
+
+  .close {
+    top: 35px;
+    right: -45px;
   }
 
   /* PROJECTS */
@@ -209,7 +246,7 @@
 
   /* CONTACT */
   .h1__contact {
-    width: 90%;
+    width: 93%;
   }
 
   /* PROJECTS */
@@ -379,7 +416,7 @@
   /* HEADER */
 
   .close {
-    top: 22;
+    top: 22px;
   }
 
   .burger__open {
@@ -392,6 +429,15 @@
 
   .logo {
     top: 2px;
+  }
+
+  .close {
+    top: 25px;
+    right: -40px;
+  }
+
+  .ul__elements li {
+    width: 25%;
   }
 
   /* DETAILS */
@@ -419,7 +465,7 @@
 
   .close {
     top: 25px;
-    right: 10px;
+    right: -35px;
   }
 
   .ul__elements li a {
@@ -516,7 +562,7 @@
   /* CONTACT */
 
   .h1__contact {
-    width: 90%;
+    width: 93%;
   }
 }
 
@@ -531,13 +577,17 @@
     font-size: 1.1rem;
   }
 
+  .ul__elements li {
+    width: 30%;
+  }
+
   .burger__closing {
     height: 20px;
   }
 
   .close {
     top: 25px;
-    right: 10px;
+    right: -35px;
   }
 
   /* HOME */
@@ -677,6 +727,11 @@
     font-size: 1.6rem;
   }
 
+  .close {
+    top: 25px;
+    right: -25px;
+  }
+
   /* HOME */
 
   .illustration__img {
@@ -688,7 +743,7 @@
   }
 
   .name__text-presentation {
-    top: 470px;
+    top: 450px;
   }
 
   .h3__home {

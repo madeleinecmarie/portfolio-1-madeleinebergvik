@@ -17,11 +17,13 @@ const getPosts = async (url) => {
         posts.forEach((value) => {
         document.querySelector('.post__container').innerHTML += `
         <div class="post__cards">
+
         <div class="post__cards__text">
         <h2 class="h2__post__cards">${value.title.rendered}</h2>
         <p class="p__post__cards">${value.excerpt.rendered}</p>
         <p class="id__link"><a href="details.html?id=${value.id}">Check full project
         </div>
+        
         </div>
         `;
 

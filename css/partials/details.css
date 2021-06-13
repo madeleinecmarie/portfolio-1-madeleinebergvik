@@ -37,3 +37,8 @@
   height: 500px;
   width: auto;
 }
+
+.web__links a {
+  font-weight: var(--bold);
+  text-decoration: none;
+}

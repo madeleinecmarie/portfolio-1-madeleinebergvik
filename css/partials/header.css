@@ -28,10 +28,6 @@
   height: 720px;
 }
 
-nav {
-  box-shadow: var(--shadow);
-}
-
 .header__text-container {
   position: relative;
 }
@@ -59,7 +55,7 @@ nav {
 .ul__elements {
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: var(--cream);
   position: fixed;
   top: 0;
@@ -71,12 +67,19 @@ nav {
   margin: 0;
 }
 
+.ul__elements li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 18%;
+}
+
 .burger__open {
   height: 55px;
 }
 
 .burger__closing {
-  height: 30px;
+  height: 28px;
 }
 
 .open {
@@ -88,7 +91,7 @@ nav {
 .close {
   position: absolute;
   top: 40px;
-  right: 30px;
+  right: -90px;
 }
 
 .ul__elements li a {
@@ -100,5 +103,5 @@ nav {
 
 .ul__elements li a:hover,
 #active {
-  border-bottom: 5px solid var(--purple);
+  color: #bf9cd6;
 }

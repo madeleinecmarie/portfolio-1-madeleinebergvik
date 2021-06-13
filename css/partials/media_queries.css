@@ -279,6 +279,10 @@
     height: 25px;
   }
 
+  .ul__elements li {
+    width: 25%;
+  }
+
   /* HOME */
   .h1-name__text {
     font-size: 3.4rem;
@@ -526,6 +530,11 @@
 }
 
 @media (max-width: 411px) {
+  /* HEADER */
+  .ul__elements li {
+    width: 30%;
+  }
+
   /* PROJECTS */
 
   .heights {
